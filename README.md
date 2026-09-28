@@ -41,7 +41,7 @@ git init
 git add .
 git commit -m "Day 15 distributed search platform"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/distributed-search-platform-day15.git
+git remote add origin https://github.com/Vermaaditya3030/distributed-search-platform-day15.git
 git push -u origin main
 ```
 
