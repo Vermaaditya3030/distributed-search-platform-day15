@@ -1,0 +1,1 @@
+package com.aditya.search.model; import jakarta.persistence.*; @Entity @Table(name="documents") public class Document { @Id @GeneratedValue(strategy=GenerationType.IDENTITY) public Long id; @Column(nullable=false) public String title; @Column(columnDefinition="TEXT",nullable=false) public String content; public Document(){} public Document(String t,String c){title=t;content=c;} }

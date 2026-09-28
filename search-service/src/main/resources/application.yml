@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:5432/searchdb
+    username: search
+    password: search
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics

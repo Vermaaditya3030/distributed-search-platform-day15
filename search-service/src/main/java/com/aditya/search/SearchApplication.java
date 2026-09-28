@@ -1,0 +1,1 @@
+package com.aditya.search; import org.springframework.boot.SpringApplication; import org.springframework.boot.autoconfigure.SpringBootApplication; @SpringBootApplication public class SearchApplication { public static void main(String[] a){SpringApplication.run(SearchApplication.class,a);} }
